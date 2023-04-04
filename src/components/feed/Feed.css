@@ -1,6 +1,6 @@
 .feed{
     flex: 1;
-    padding: 30px 150px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,6 +24,9 @@
 .story:hover{
     transform: scale(1.07);
 }
+/* .story:{
+    transform: scale(10.07);
+} */
 
 .story__avatar{
     margin: 10px;
@@ -39,4 +42,34 @@
 
 .story_reel{
     display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .feed{
+    padding: 30px 10px;
+  }
+  
+  .story{
+    width: 100px;
+    height: 180px;
+  }
+  
+  .story>h4{
+    font-size: 14px;
+    bottom: 10px;
+    left: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .story{
+    width: 100px;
+    height: 180px;
+  }
+  
+  .story>h4{
+    font-size: 12px;
+    bottom: 5px;
+    left: 5px;
+  }
 }

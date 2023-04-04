@@ -1,4 +1,4 @@
-import { Avatar, Icon } from '@mui/material'
+import { Avatar} from '@mui/material'
 import React from 'react'
 import './Sidebar.css'
 

@@ -2,27 +2,27 @@ import React from 'react'
 import Story from './Story'
 import './Feed.css'
 
-export default function Story_reel() {
+export default function Story_reel({ user }) {
   return (
     <div className='story_reel'>
-        <Story profile='https://upload.wikimedia.org/wikipedia/commons/c/c0/Official_Photograph_of_Prime_Minister_Narendra_Modi_Potrait.png'
-            Image='https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/41yrX7UX6zL._SX322_BO1,204,203,200_.jpg'
-            title='Narendra Modi'
+        <Story profile='https://nettv4u.com/imagine/Mohit-Chauhan.jpg'
+            Image='https://i.pinimg.com/originals/51/e9/79/51e979ee2974c356e34889626610bd2e.jpg'
+            title='Mohit Chauhan'
         />
-        <Story profile='https://pbs.twimg.com/profile_images/1564398871996174336/M-hffw5a_400x400.jpg'
-            Image='https://www.kelownanow.com/files/files/images/dress%20code.jpg'
-            title='Bill Gates'
+        <Story profile='https://economictimes.indiatimes.com/thumb/msid-91915573,width-1200,height-900,resizemode-4,imgsize-67996/kgf-2-poster.jpg?from=mdr'
+            Image='https://images.cinemaexpress.com/uploads/user/imagelibrary/2022/5/14/original/KGF_2.jpg?w=400&dpr=2.6'
+            title='Rocky Bhai'
         />
-        <Story profile='https://static.theprint.in/wp-content/uploads/2019/02/Ratan-Tata-image.jpg'
-            Image='https://techstory.in/wp-content/uploads/2018/11/1HY8GI1_632_lt.jpg'
-            title='Ratan Tata'
+        <Story profile='https://i.ibb.co/K9q5WPB/desktop-wallpaper-ranbir-kapoor-bollywood-movie-rockstar.jpg'
+            Image='https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/202001/86-865272_5-films-that-shahid--x768.jpg?EGTNoxlBHC7QUlKzlTe2mbsqx0p3ZOhl'
+            title='Jordan'
         />
         <Story profile='https://lastfm.freetls.fastly.net/i/u/ar0/f1df7c3eb64df572d647ba70e5dfa795.jpg'
-            Image='https://cdn.siasat.com/wp-content/uploads/2022/12/Darshan-Raval.jpg'
+            Image='https://www.pinkvilla.com/english/images/2022/10/125546497_hm105281_1600*900.jpg'
             title='Darshan Raval'
         />
         <Story profile='https://feeds.abplive.com/onecms/images/uploaded-images/2023/01/23/7d2c77d69308075b4d7114ffc64852391674495966235462_original.jpg?impolicy=abp_cdn&imwidth=650'
-            Image='https://static.toiimg.com/thumb/msid-87801615,width-1070,height-580,imgsize-51524,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg'
+            Image='https://static.toiimg.com/thumb/resizemode-4,width-1200,height-900,msid-87801615/87801615.jpg'
             title='Bhuvan Bam'
         />
     </div>
